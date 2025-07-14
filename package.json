@@ -1,0 +1,27 @@
+{
+  "name": "type-script-sqllite-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc --noEmit && npx tsx ./src/app.mts",
+    "check": "npx tsc --noEmit",
+    "watch": "npx tsx watch ./src/app.mts",
+    "test": ".",
+    "stop": ".",
+    "restart": "."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^24.0.13",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.2.0"
+  }
+}
